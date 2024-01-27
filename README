@@ -1,0 +1,40 @@
+Date: 01/25/2024
+Class: CS4541
+Assignment: Number_Demonstrations
+Author(s): Sami Ibrahim
+
+gcc -std=c99 -Wall -o Number_Demonstrations Number_Demonstrations.c
+
+Warnings:
+
+References:
+
+Results:
+Problem 1:
+Expected:
+Result:
+
+Results:
+Problem 2:
+Expected:
+Result:
+
+Results:
+Problem 3:
+Expected:
+Result:
+
+Results:
+Problem 4:
+Expected:
+Result:
+
+Results:
+Problem 5:
+Expected:
+Result:
+
+Results:
+Problem 6:
+Expected:
+Result:
