@@ -1,0 +1,40 @@
+Script started on 2024-01-27 03:59:50+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="90" LINES="24"]
+[0;32m@SaibrPortfolio [0m➜ [1;34m/workspaces/Number_Demonstrations [0;36m([1;31mmain[0;36m) [0m$ tsc Number_Demonstrations
+bash: tsc: command not found
+[0;32m@SaibrPortfolio [1;31m➜ [1;34m/workspaces/Number_Demonstrations [0;36m([1;31mmain[0;36m) [0m$ make
+cc     Number_Demonstrations.c   -o Number_Demonstrations
+[01m[KNumber_Demonstrations.c:[m[K In function ‘[01m[Kproblem5[m[K’:
+[01m[KNumber_Demonstrations.c:37:15:[m[K [01;35m[Kwarning: [m[Kinteger overflow in expression of type ‘[01m[Kint[m[K’ results in ‘[01m[K-1794967296[m[K’ [[01;35m[K-Woverflow[m[K]
+   37 |   num5 = 50000[01;35m[K*[m[K50000;
+      |               [01;35m[K^[m[K
+[01m[KNumber_Demonstrations.c:39:15:[m[K [01;35m[Kwarning: [m[Kinteger overflow in expression of type ‘[01m[Kint[m[K’ results in ‘[01m[K-694967296[m[K’ [[01;35m[K-Woverflow[m[K]
+   39 |   num5 = 60000[01;35m[K*[m[K60000;
+      |               [01;35m[K^[m[K
+[01m[KNumber_Demonstrations.c:41:15:[m[K [01;35m[Kwarning: [m[Kinteger overflow in expression of type ‘[01m[Kint[m[K’ results in ‘[01m[K605032704[m[K’ [[01;35m[K-Woverflow[m[K]
+   41 |   num5 = 70000[01;35m[K*[m[K70000;
+      |               [01;35m[K^[m[K
+[0;32m@SaibrPortfolio [0m➜ [1;34m/workspaces/Number_Demonstrations [0;36m([1;31mmain[0;36m) [0m$ maketsc Number_Demonstrations[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./Number_Demonstrations
+Problem 1 Result: 2.5000000000
+
+Problem 2 Result: -0.1000000015
+
+Problem 3 Result: 0.000000
+Problem 3 Result: 0.333333
+
+Problem 4 Result: 9999999.340000
+Problem 4 Result: 9999999.000000
+
+Problem 5 Result: 900000000
+Problem 5 Result: 1600000000
+Problem 5 Result: -1794967296
+Problem 5 Result: -694967296
+Problem 5 Result: 605032704
+
+Problem 6 Result: 100000002004087734272.000000
+Problem 6 Result: 100000002004087734272.000000
+Problem 6 Result: 103500002601996386304.000000
+Problem 6 Result: 100000002004087734272.000000
+[0;32m@SaibrPortfolio [0m➜ [1;34m/workspaces/Number_Demonstrations [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2024-01-27 04:01:59+00:00 [COMMAND_EXIT_CODE="0"]

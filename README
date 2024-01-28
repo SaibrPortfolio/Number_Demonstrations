@@ -7,34 +7,64 @@ gcc -std=c99 -Wall -o Number_Demonstrations Number_Demonstrations.c
 
 Warnings:
 
-References:
+Number_Demonstrations.c: In function ‘problem5’:
+Number_Demonstrations.c:37:15: warning: integer overflow in expression of type ‘int’ results in ‘-1794967296’ [-Woverflow]
+   37 |   num5 = 50000*50000;
+      |               ^
+Number_Demonstrations.c:39:15: warning: integer overflow in expression of type ‘int’ results in ‘-694967296’ [-Woverflow]
+   39 |   num5 = 60000*60000;
+      |               ^
+Number_Demonstrations.c:41:15: warning: integer overflow in expression of type ‘int’ results in ‘605032704’ [-Woverflow]
+   41 |   num5 = 70000*70000;
+
+References: Some simple syntax overview:
+https://www.tutorialspoint.com/cprogramming/c_functions.htm
+
 
 Results:
 Problem 1:
-Expected:
-Result:
+Expected: 2.5000000000
+Result: 2.5000000000
 
 Results:
 Problem 2:
-Expected:
-Result:
+Expected: 0.1000000000
+Result: -0.1000000015
 
 Results:
 Problem 3:
-Expected:
-Result:
+Expected: 0
+Result: 0.000000
+Expected: 0.33
+Result: 0.333333
 
 Results:
 Problem 4:
-Expected:
-Result:
+Expected: 9999999.3399999999
+Result: 9999999.340000
+Expected: 9999999.340000000
+Result: 9999999.000000
 
 Results:
 Problem 5:
-Expected:
-Result:
+Expected: 900000000
+Result: 900000000
+Expected: 1600000000
+Result: 1600000000
+Expected: 2500000000
+Result: -1794967296
+Expected: 3600000000
+Result: -694967296
+Expected: 4900000000
+Result: 605032704
 
 Results:
 Problem 6:
-Expected:
-Result:
+Expected: 100000000000000000000
+Result: 100000002004087734272.000000
+Expected: Dont' know what to expect
+Result: 100000002004087734272.000000
+Expected: Dont' know what to expect
+Result: 103500002601996386304.000000
+Expected: Dont' know what to expect
+Result: 100000002004087734272.000000
