@@ -1,6 +1,6 @@
 all: Number_Demonstrations
 
-simple_c_program: simple_c_program.c
+Number_Demonstrations: Number_Demonstrations.c
 	gcc -std=c99 -Wall -o Number_Demonstrations Number_Demonstrations.c
 
 run:
