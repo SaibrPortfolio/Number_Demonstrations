@@ -1,6 +1,4 @@
 Script started on 2024-01-27 03:59:50+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="90" LINES="24"]
-[0;32m@SaibrPortfolio [0m➜ [1;34m/workspaces/Number_Demonstrations [0;36m([1;31mmain[0;36m) [0m$ tsc Number_Demonstrations
-bash: tsc: command not found
 [0;32m@SaibrPortfolio [1;31m➜ [1;34m/workspaces/Number_Demonstrations [0;36m([1;31mmain[0;36m) [0m$ make
 cc     Number_Demonstrations.c   -o Number_Demonstrations
 [01m[KNumber_Demonstrations.c:[m[K In function ‘[01m[Kproblem5[m[K’:
